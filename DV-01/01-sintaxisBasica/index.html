@@ -5,8 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BASIC CSS</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+    <!--
+        La diferencia de tener estos selectores en esta parte del HEAD lo que ocurre es que cuando reconoce digamos un h1 en algun lado
+        cambia todos esos h1 a esa misma especificacion de color que hayamos tenido predefinida.
+
+        En el body podemos tambien colocar los parametros sin tener la necesidad de colocar selectores.
+
+        LA IDEA ES TENER TODO LOS ESTILOS EN EL ARCHIVO DE CSS
+    -->
+    <style>
+        h1{
+            color: chocolate;
+            background-color: aquamarine;
+        }
+        h2{
+            color: yellow;
+            background-color: turquoise;
+        }
+
+    </style>
+
+
 </head>
 <body>
+    <h1>Este Es un Titulo</h1>
+    <h2>Este es otro titulo</h2>
     
+    <h3 style="color: blue; background-color: blueviolet;">Este es el titulo</h3>
+    <h4 style="color: violet; background-color: black;">Este es la titulo</h4>
+
 </body>
 </html>
