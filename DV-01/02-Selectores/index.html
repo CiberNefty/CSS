@@ -30,24 +30,41 @@
 
     <!--El proximo es el numeral # (#), para que funcione toca hacer algo que se llama el identificador
         solamente se puede usar solo una sola vez!  -->
-    <style>
+    <!-- <style>
         #titulo {
             font-family: 'Courier New', Courier, monospace;
         } 
         #parrafor{
             text-align: end;
         }
+    </style> -->
+
+    <!-- Este es el selector MAS IMPORTANTE (selector de Clase) para seleccionar por clase se utiliza el punto (.) -->
+    <style>
+        .seccion1{
+            background-color: black;
+            color: white;
+        }
+        .seccion2{
+            background-color: blue;
+            color: magenta;
+        }
     </style>
 </head>
 <body>
 
-    <h1 id="titulo">Este es el TITULO</h1>
+    <!-- <h1 id="titulo">Este es el TITULO</h1>
     <h2>Este no es</h2>
     <h3>Este si</h3>
     <h4>dadadasd</h4>
-    <p id="parrafor">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt,<br> tenetur magni architecto nemo maiores sit atque possimus. <br> Odio officiis a iste odit, iusto ullam, architecto sit ab commodi modi itaque.</p>
+    <p id="parrafor">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt,<br> tenetur magni architecto nemo maiores sit atque possimus. <br> Odio officiis a iste odit, iusto ullam, architecto sit ab commodi modi itaque.</p> -->
+    <h1 class="seccion1">Titulo Principal</h1>
+    <h2 class="seccion1">Titulo secundario</h2>
+    <p class="seccion1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem saepe debitis fugit vel. Provident est voluptatem itaque voluptates. Suscipit, odit? Exercitationem facere laborum esse enim perferendis voluptatibus saepe culpa nihil.</p>
 
-    <h1>Este es otro titulo ¿Tendra estilo?</h1>
-    <p>¿Tendra estilo hacia el final o no?</p>
+    <h1 class="seccion2">Titulo principal de otra seccion</h1>
+    <h2 class="seccion2">Titulo secundario de otra seccion</h2>
+    <p class="seccion2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe vel placeat odit, ad amet, sequi dolores voluptatibus, nisi quo quaerat illo dignissimos! Exercitationem et deserunt nesciunt praesentium consequuntur expedita nisi?</p>
+    
 </body>
 </html>
